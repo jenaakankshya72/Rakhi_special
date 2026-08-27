@@ -1,0 +1,7 @@
+Replace memory1.jpg through memory6.jpg with your real photos.
+Recommended: JPG/JPEG or PNG. Keep the filenames matching index.html.
+memory1.jpeg
+memory2.jpeg
+memory3.jpeg
+memory4.jpeg
+memory5.jpeg

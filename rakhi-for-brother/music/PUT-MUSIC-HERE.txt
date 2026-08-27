@@ -1,0 +1,3 @@
+Optional: place your legally obtained MP3 here and name it rakhi-song.mp3.
+music/
+└── rakhi-song.mp3

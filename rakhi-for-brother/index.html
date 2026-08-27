@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A Raksha Bandhan surprise made with love." />
+  <title>For My Brother ❤️ | Happy Raksha Bandhan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hearts" class="hearts" aria-hidden="true"></div>
+
+  <section id="welcome" class="welcome-screen">
+    <div class="welcome-card">
+      <div class="rakhi-icon">🎀</div>
+      <p class="eyebrow">A little Rakhi surprise</p>
+      <h1>Hey <span id="brotherNameWelcome">Bhai</span> ❤️</h1>
+      <p class="welcome-text">I made something just for you.<br>There are memories, secrets, and a little bit of madness inside.</p>
+      <button id="openBtn" class="primary-btn">Open My Surprise ✨</button>
+      <p class="tiny-note">Best experienced with sound on 🎵</p>
+    </div>
+  </section>
+
+  <main id="mainContent" class="hidden">
+    <nav class="navbar">
+      <a href="#home" class="logo">For My Bhai ❤️</a>
+      <button id="musicBtn" class="music-btn" aria-label="Toggle music">🔇 Music</button>
+    </nav>
+
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Happy Raksha Bandhan</p>
+        <h2>To the world's<br><span>most annoying</span><br>but most loved brother. ❤️</h2>
+        <p>Life would be a lot quieter without you... and honestly, I don't think I want that. 😄</p>
+        <a href="#story" class="secondary-btn">Our Story ↓</a>
+      </div>
+      <div class="hero-rakhi">🪢</div>
+    </section>
+
+    <section id="story" class="section story-section">
+      <div class="section-heading">
+        <p class="eyebrow">Chapter 01</p>
+        <h2>Our little story 📖</h2>
+        <p>From silly fights to unforgettable moments, here are some pieces of our story.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot">👶</div>
+          <div class="timeline-card">
+            <span>Once upon a time...</span>
+            <h3>When we were little</h3>
+            <p>We didn't know it then, but these ordinary days would become some of our favorite memories.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-dot">😂</div>
+          <div class="timeline-card">
+            <span>The chaos era</span>
+            <h3>Our legendary fights</h3>
+            <p>TV remotes, food, teasing, blaming each other... somehow we always came back to laughing.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-dot">❤️</div>
+          <div class="timeline-card">
+            <span>Growing up</span>
+            <h3>Things changed, we didn't</h3>
+            <p>Life got busier, but the bond stayed. You're still the person I can annoy without an appointment.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="memories" class="section memories-section">
+      <div class="section-heading">
+        <p class="eyebrow">Chapter 02</p>
+        <h2>Our memories 📸</h2>
+        <p>Replace the sample photos below with your real pictures.</p>
+      </div>
+      <div class="gallery">
+        <figure class="photo-card tall"><img src="images/memory2.jpeg" alt="Our memory 1"><figcaption>One of those days I'll always remember ❤️</figcaption></figure>
+        <figure class="photo-card"><img src="images/memory1.jpeg" alt="Our memory 2"><figcaption>Partners in crime 😎</figcaption></figure>
+        <figure class="photo-card"><img src="images/memory3.jpeg" alt="Our memory 3"><figcaption>Too many laughs 😂</figcaption></figure>
+        <figure class="photo-card tall"><img src="images/memory4.jpeg" alt="Our memory 4"><figcaption>Family, memories, forever.</figcaption></figure>
+        <figure class="photo-card"><img src="images/memory5.jpeg" alt="Our memory 5"><figcaption>Another chapter ✨</figcaption></figure>
+        <figure class="photo-card"><img src="images/memory6.jpeg" alt="Our memory 6"><figcaption>And many more to come...</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section funny-section">
+      <div class="funny-card">
+        <p class="eyebrow">Chapter 03</p>
+        <h2>Things I don't like about you 😂</h2>
+        <div class="reasons">
+          <button class="reason">You annoy me.</button>
+          <button class="reason">You steal my food.</button>
+          <button class="reason">You think you're always right.</button>
+          <button class="reason">You tease me for no reason.</button>
+          <button class="reason">You act like my second parent.</button>
+          <button class="reason">You're impossible to defeat in an argument.</button>
+        </div>
+        <div id="funnyReveal" class="funny-reveal">Okay fine... I love you anyway. ❤️</div>
+      </div>
+    </section>
+
+    <section id="letter" class="section letter-section">
+      <div class="letter-wrap">
+        <p class="eyebrow">Chapter 04</p>
+        <h2>A letter for you 💌</h2>
+        <div class="letter">
+          <p>Dear <span id="brotherNameLetter">Bhai</span>,</p>
+          <p>We may fight, argue, irritate each other and pretend that we don't care...</p>
+          <p>But underneath all of that, I hope you know how grateful I am to have you as my brother.</p>
+          <p>Thank you for all the little things, the laughs, the support, the memories, and even the annoying moments that somehow become stories we laugh about later.</p>
+          <p>No matter how much we grow up or how far life takes us, you'll always be my brother and one of my favorite people.</p>
+          <p>Happy Raksha Bandhan! May you always be happy, successful and surrounded by people who love you.</p>
+          <p class="signature">With lots of love,<br><span>Your sister ❤️</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section surprise-section">
+      <div class="surprise-card">
+        <div class="gift">🎁</div>
+        <p class="eyebrow">Final Chapter</p>
+        <h2>One last surprise...</h2>
+        <p>You've reached the end. But I saved one message just for you.</p>
+        <button id="surpriseBtn" class="primary-btn">Open It ❤️</button>
+        <div id="finalMessage" class="final-message hidden">
+          <div class="confetti-emoji">🎉 🥳 🎀 ❤️ 🥳 🎉</div>
+          <h3>Happy Raksha Bandhan, Bhai!</h3>
+          <p>Whatever happens in life, remember that you'll always have a sister who loves you, believes in you, and will happily annoy you forever. 😄❤️</p>
+          <strong>Our bond is forever. 🧿</strong>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made with ❤️ for my brother</p>
+      <p>Happy Raksha Bandhan 🎀</p>
+    </footer>
+  </main>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="music/rakhi-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
